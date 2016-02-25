@@ -8,3 +8,6 @@ git clone  + HTTP(github)
 git add *
 git commit -m "commit message"
 git status
+
+git commit -am "commit updated"
+
