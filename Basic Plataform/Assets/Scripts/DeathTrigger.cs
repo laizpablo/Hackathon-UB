@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class DeathTrigger : MonoBehaviour {
@@ -16,7 +17,8 @@ public class DeathTrigger : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other){
         if (other.gameObject.CompareTag("Player")){
             // Realod the level
-            Application.LoadLevel(Application.loadedLevel);
+            //Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
             
     }
