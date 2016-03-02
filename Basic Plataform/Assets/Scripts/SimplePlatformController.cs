@@ -5,7 +5,7 @@ public class SimplePlatformController : MonoBehaviour {
 
     //HideInInspector: Makes a variable not show up in the inspector but be serialized.
     [HideInInspector] public bool facingRight = true;
-    public bool jump = false;
+    [HideInInspector] public bool jump = false;
 
     public float moveForce = 365f;
     public float maxSpeed = 5f;
