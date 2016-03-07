@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity 2D Game Development.CSharp.Plugins", "Unity 2D Game Development.CSharp.Plugins.csproj", "{313D87F3-8835-AFE0-DB3A-996BE84A27E7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity 2D Game Development.CSharp", "Unity 2D Game Development.CSharp.csproj", "{222A8406-D3C8-736A-2B11-B61F90B7B80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity 2D Game Development.CSharp.Editor", "Unity 2D Game Development.CSharp.Editor.csproj", "{E83C8EF2-91CD-0909-B849-B95DFEFE5CAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313D87F3-8835-AFE0-DB3A-996BE84A27E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313D87F3-8835-AFE0-DB3A-996BE84A27E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313D87F3-8835-AFE0-DB3A-996BE84A27E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313D87F3-8835-AFE0-DB3A-996BE84A27E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{222A8406-D3C8-736A-2B11-B61F90B7B80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{222A8406-D3C8-736A-2B11-B61F90B7B80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{222A8406-D3C8-736A-2B11-B61F90B7B80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{222A8406-D3C8-736A-2B11-B61F90B7B80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83C8EF2-91CD-0909-B849-B95DFEFE5CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83C8EF2-91CD-0909-B849-B95DFEFE5CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83C8EF2-91CD-0909-B849-B95DFEFE5CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83C8EF2-91CD-0909-B849-B95DFEFE5CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
