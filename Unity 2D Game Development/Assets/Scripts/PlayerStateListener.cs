@@ -43,8 +43,8 @@ public class PlayerStateListener : MonoBehaviour
     }
 
     void Update(){
-        transform.localPosition += Time.deltaTime * new Vector3(S1.Horizontal, 0, S1.Vertical) * playerWalkSpeed;
-        transform.Rotate(Vector3.up, Time.deltaTime * S2.Horizontal* playerJumpForceVertical);
+        //transform.localPosition += Time.deltaTime * new Vector3(S1.Horizontal, 0, S1.Vertical) * playerWalkSpeed;
+        //transform.Rotate(Vector3.up, Time.deltaTime * S2.Horizontal* playerJumpForceVertical);
     }
 
     void LateUpdate()
