@@ -14,6 +14,7 @@ public class PlayerStateListener : MonoBehaviour
     public float playerWalkSpeed = 3f;
     public float playerJumpForceVertical = 500f;
     public float playerJumpForceHorizontal = 250f;
+    //Para reaparecer cuando morimos
     public GameObject playerRespawnPoint = null;
     public GameObject bulletPrefab = null;
     public Transform bulletSpawnTransform;
